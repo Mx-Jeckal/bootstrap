@@ -1,0 +1,145 @@
+.navcolor {
+    background-color: rgb(107, 147, 180);
+    background-image: linear-gradient(aliceblue, rgb(107, 147, 180));
+    border-bottom: 3px solid rgb(28, 28, 56);
+}
+
+.navbar-nav {
+    float: right;
+}
+
+li {
+    border-right: 2px solid rgb(124, 171, 209);
+    border-bottom: 2px solid rgb(124, 171, 209);
+    margin: 3px;
+    border-radius: 10px;
+}
+
+#bg {
+    min-height: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/blue-snow.png');
+    background-size: 25% cover;
+    background-repeat: repeat;
+    /* padding-bottom: 400px; */
+}
+
+.content {
+    background-color: rgb(204, 216, 228);
+    border-right: 3px solid rgb(28, 28, 56);
+    border-bottom: 3px solid rgb(28, 28, 56);
+    border-top: 1x solid rgb(203, 215, 226);
+    border-left: 3px solid rgb(182, 193, 204);
+    margin-top: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+h2 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 40px;
+}
+
+#img {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-right: 3px solid rgb(28, 28, 56);
+    border-bottom: 3px solid rgb(28, 28, 56);
+    float: left;
+    margin: 15px
+}
+
+.footer {
+    background-color: rgb(28, 28, 56);
+    width: 100%;
+    height: 50px;
+    border-top: 8px solid rgb(107, 147, 180);
+    text-align: center;
+    color: aliceblue;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.card {
+    background-color: rgb(28, 28, 56);
+    color: aliceblue;
+    border-radius: 10px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 35px;
+    border-top: 2x solid rgb(203, 215, 226);
+    border-left: 3px solid rgb(182, 193, 204);
+}
+
+.msg {
+    height: 300px;
+    text-align: start;
+    resize: none;
+    box-sizing: border-box;
+}
+
+.form-control {
+    border-top: 4x solid rgb(28, 28, 56);
+    border-left: 2px solid rgb(28, 28, 56);
+}
+
+.btn {
+    background-color: rgb(28, 28, 56);
+    color: aliceblue;
+    border-radius: 10px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+
+/* For mobile phones: */
+
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+    .col-2 {
+        width: 16.66%;
+    }
+    .col-3 {
+        width: 25%;
+    }
+    .col-4 {
+        width: 33.33%;
+    }
+    .col-5 {
+        width: 41.66%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    .col-7 {
+        width: 58.33%;
+    }
+    .col-8 {
+        width: 66.66%;
+    }
+    .col-9 {
+        width: 75%;
+    }
+    .col-10 {
+        width: 83.33%;
+    }
+    .col-11 {
+        width: 91.66%;
+    }
+    .col-12 {
+        width: 100%;
+    }
+}
